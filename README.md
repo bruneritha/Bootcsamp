@@ -1,2 +1,1 @@
-# Bootcsamp
-qyestion and answers
+
