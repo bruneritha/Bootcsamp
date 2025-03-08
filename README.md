@@ -7,8 +7,11 @@ scanner obj = new scanner(system.in)
 system.out.print("enter the base:")
 base=obj.nextInt();
 system.out.print("enter the exponent:")
-exponent=obj.nextInt();{
-system.out.print("the result:"+result)}
+exponent=obj.nextInt();
+int result=1
+for(i=1;i<=exponent;i++){
+result=result*base}
+system.out.print("the result:"+result)
 return result}}
 
 
